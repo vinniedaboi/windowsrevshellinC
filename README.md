@@ -1,0 +1,1 @@
+gcc rev.c -lwsock32 -lws2_32 -static-libgcc -o rev 
