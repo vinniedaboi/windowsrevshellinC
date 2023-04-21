@@ -1,4 +1,15 @@
-```gcc rev.c -lwsock32 -lws2_32 -static-libgcc -o rev``` to compile
-have a nc listener to listen for an incoming connection   ```nc -l 1337```
-change the default port for a different port.
+# A very simple encrypted windows reverse shell that also hides itself
+
+# Usage (Client Side)
+```
+gcc rev.c -lwsock32 -lws2_32 -static-libgcc -o rev
+``` 
+# Usage (Server Side)
+
+```
+nc -l 1337
+```
+**Any listener should do**
+
+# Credits: vinniekorkor#7391
 
